@@ -1,0 +1,114 @@
+
+.title{
+    text-align: center;
+    font-family: "Amatic SC", cursive;
+    font-size: 3.5em;
+    padding: 5px;
+}
+
+.summary{
+    font-family: "Crimson Text", sans-serif;
+
+}
+
+.intro, .scroll{
+    font-family: "Amatic SC", cursive;
+    font-size: 1.6em;
+}
+
+.intro{
+    text-align: center;
+    padding: 7%;
+}
+
+.handwriting{
+    font-family: "Homemade Apple", cursive;
+}
+
+.scroll{
+    background-image: url("../../images/scroll.png");
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.scrollTitle{
+    padding-top: 3%;
+    text-align: center;
+}
+
+.userForm{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+button {
+    margin-top: 15%;
+}
+
+
+
+@media (min-width: 630px){
+    .scroll{
+    background-size: contain;
+    }
+    .userForm{
+        margin-left: 25%;
+        width: 50%;
+    }
+}
+
+@media (min-width: 700px){
+    .scroll{
+    /* background-size: contain; */
+    }
+    .userForm{
+        margin-left: 30%;
+        width: 40%;
+    }
+}
+
+@media (min-width: 768px){
+.userForm{
+   margin-top: 0;
+   text-align: center; 
+}
+.form-group{
+    margin-left: 10%;
+}
+.scrollTitle{
+    padding-top: 2%;
+}
+}
+
+@media (min-width: 1072px){
+    .userForm{
+       margin-top: 0;
+       text-align: center;
+       width: 36%; 
+    }
+    .form-group{
+        margin-left: 20%;
+    }
+    .scrollTitle{
+        padding-top: 1.5%;
+    }
+    }
+
+    @media (min-width: 1392px){
+        .userForm{
+           margin-top: 0;
+           text-align: center;
+           width: 32%; 
+        }
+        .form-group{
+            margin-left: 32%;
+        }
+        .scrollTitle{
+            padding-top: 1%;
+        }
+        }

@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah|Homemade+Apple|Crimson+Text|Playfair+Display|Tangerine');
+
+
+.profile-img{
+    margin-top: -5px;
+    margin-right: 5px;
+    float: left;
+    background: url("https://i.pinimg.com/736x/a0/4d/bb/a04dbb26ee3c917e76d0154fef0a7b8c--westie-dog-westies.jpg") 50% 50% no-repeat; /* 50% 50% centers image in div */
+    background-size: auto 100%; /* Interchange this value depending on prefering width vs. height */
+    width: 30px;
+    height: 30px;
+}
+
+*{
+    font-family: "Amatic SC", cursive;
+}
+
+nav{
+    font-size: 2em;
+}
+
+.navbar-brand{
+    font-size: 1.5em;
+}
