@@ -4,6 +4,9 @@
     font-family: "Amatic SC", cursive;
     font-size: 3.5em;
     padding: 5px;
+    margin-top: -20px;
+    padding-top: 25px;
+    color: #9d9d9d;
 }
 
 .summary{
@@ -19,6 +22,7 @@
 .intro{
     text-align: center;
     padding: 7%;
+    color: #9d9d9d;
 }
 
 .handwriting{
@@ -48,8 +52,12 @@
 
 button {
     margin-top: 15%;
+    font-size: 20px;
 }
 
+input, select{
+    font-size: 20px;
+}
 
 
 @media (min-width: 630px){
